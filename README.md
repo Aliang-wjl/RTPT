@@ -1,6 +1,8 @@
-# Code for **R-TPT**
+# Official implementation for **R-TPT**
 
 ## [**[CVPR-2025] R-TPT: Improving Adversarial Robustness of Vision-Language Models through Test-Time Prompt Tuning**](https://arxiv.org/abs/2504.11195)
+
+[2025.08] **We have corrected the robustness results on the Aircraft dataset** and uploaded an updated (arXiv) version of the paper.
 
 Our implementation is based on [TPT](https://github.com/azshue/TPT) and [adversarial-attacks-pytorch](https://github.com/Harry24k/adversarial-attacks-pytorch).
 
