@@ -1,3 +1,5 @@
+测试一下
+
 # Official implementation for **R-TPT**
 
 ## [**[CVPR-2025] R-TPT: Improving Adversarial Robustness of Vision-Language Models through Test-Time Prompt Tuning**](https://arxiv.org/abs/2504.11195)
@@ -38,5 +40,4 @@ Replace /path/to/dataset with your dataset folder root in below commands and che
     ```python
 	python rtpt.py /path/to/dataset --test_sets DTD -a RN50 -b 64 --gpu 0 --ctx_init a_photo_of_a -p 50 --eps 1.0 --step 7 --output_dir 'output_results/rtpt' --load_tecoa 'RN50-eps1'
 	```
-
 
